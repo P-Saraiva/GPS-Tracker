@@ -13,20 +13,20 @@ LiquidCrystal lcd(5, 4, 2, 14, 12, 13);                        //Define os pinos
 
 TinyGPSPlus gps;                                            
 
-const double HOME_LAT = -27.593801;                          // Latitude e Longitude do ponto de partida -27.593801, -48.554805
-const double HOME_LNG = -48.554805;                        
+const double HOME_LAT = ****;                          // Latitude e Longitude do ponto de partida 
+const double HOME_LNG = ****;                        
 
 // Dados WiFi 
 
-#define WLAN_SSID       "Vivo"                             // SSID da rede
-#define WLAN_PASS       "nina@0001"                        // Senha da rede
+#define WLAN_SSID       "****"                             // SSID da rede
+#define WLAN_PASS       "********"                        // Senha da rede
 
 // Dados Adafruit.io 
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                                // use 8883 for SSL
-#define AIO_USERNAME    "Saraiva_"                          // Username Adafruit
-#define AIO_KEY         "aio_WqNd10sp62GzQvyRZweJGD1l5gNW"  // Key da Adafruit
+#define AIO_USERNAME    "*****"                          // Username Adafruit
+#define AIO_KEY         "*****************************"  // Key da Adafruit
 
 
 /***************** Interação entre o código e o MQTT Server ******************/
